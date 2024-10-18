@@ -4,39 +4,41 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 
 ## Requisitos:
 
--- Databricks Community Edition ou uma instância Databricks
+- Databricks Community Edition ou uma instância Databricks
 
--- PySpark para processamento de dados em grandes volumes
+- PySpark para processamento de dados em grandes volumes
 
-### Bibliotecas externas:
-       py7zr para descompactar arquivos .7z
+- Bibliotecas externas:
+     - py7zr para descompactar arquivos .7z
 
 ## Passos para Configuração
 
 ### 1. Criar uma Conta no Databricks
-Acesse Databricks Community Edition e crie uma conta gratuita, caso ainda não tenha.
-Crie um Cluster no Databricks para executar seus notebooks.
+- Acesse Databricks Community Edition e crie uma conta gratuita, caso ainda não tenha.
+- Crie um Cluster no Databricks para executar seus notebooks.
 
 ### 2. Criar e Configurar o Notebook
-Abra o Databricks Workspace e crie um novo Notebook.
-Nomeie o notebook como "Processamento de Logs de Servidor Web".
-No notebook, configure o Cluster criado no passo anterior.
+1. Abra o Databricks Workspace e crie um novo Notebook.
+
+2. Nomeie o notebook como "Processamento de Logs de Servidor Web".
+
+3. No notebook, configure o Cluster criado no passo anterior.
 
 ### 3. Instalar a Biblioteca py7zr
+
 Dentro do notebook, instale a biblioteca necessária para descompactação de arquivos executando:
 
 %pip install --upgrade py7zr
 
 ### 4. Executar o Código
+
 Copie o código abaixo no notebook e execute célula por célula. O código faz o seguinte:
 
-#### Código completo conforme fornecido anteriormente
+1. Faz download e une dois arquivos .7z de logs compactados.
 
--- Faz download e une dois arquivos .7z de logs compactados.
+2. Descompacta o arquivo para o diretório /tmp/descompactado.
 
--- Descompacta o arquivo para o diretório /tmp/descompactado.
-
--- Carrega e processa os logs, gerando análises como os IPs com mais acessos e erros HTTP.
+3. Carrega e processa os logs, gerando análises como os IPs com mais acessos e erros HTTP.
 
 ### 5. Entrega
 Após o processamento, você terá os seguintes resultados:
