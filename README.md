@@ -14,11 +14,13 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 ## Passos para Configuração
 
 ### 1. Criar uma Conta no Databricks
+
 - Acesse Databricks Community Edition e crie uma conta gratuita, caso ainda não tenha.
 
 - Crie um Cluster no Databricks para executar seus notebooks.
 
 ### 2. Criar e Configurar o Notebook
+
 1. Abra o Databricks Workspace e crie um novo Notebook.
 
 2. Nomeie o notebook como "Processamento de Logs de Servidor Web".
@@ -28,6 +30,7 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 ### 3. Instalar a Biblioteca py7zr
 
 - Dentro do notebook, instale a biblioteca necessária para descompactação de arquivos executando:
+
      - %pip install --upgrade py7zr
 
 ### 4. Executar o Código
@@ -45,6 +48,7 @@ O código faz o seguinte:
 3. Carrega e processa os logs, gerando análises como os IPs com mais acessos e erros HTTP.
 
 ### 5. Entrega
+
 Após o processamento, você terá os seguintes resultados:
 
 1. As 10 maiores origens de acesso por quantidade de acessos.
