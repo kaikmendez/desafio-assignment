@@ -15,6 +15,7 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 
 ### 1. Criar uma Conta no Databricks
 - Acesse Databricks Community Edition e crie uma conta gratuita, caso ainda não tenha.
+
 - Crie um Cluster no Databricks para executar seus notebooks.
 
 ### 2. Criar e Configurar o Notebook
@@ -32,7 +33,11 @@ Dentro do notebook, instale a biblioteca necessária para descompactação de ar
 
 ### 4. Executar o Código
 
-Copie o código abaixo no notebook e execute célula por célula. O código faz o seguinte:
+Copie o código abaixo no notebook e execute célula por célula. 
+
+- Código disponível no arquivo 'desafio-assignment.ipynb'
+
+O código faz o seguinte:
 
 1. Faz download e une dois arquivos .7z de logs compactados.
 
