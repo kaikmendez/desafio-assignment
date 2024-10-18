@@ -37,7 +37,7 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 
 Copie o código abaixo no notebook e execute célula por célula. 
 
-- Código disponível no arquivo 'desafio-assignment.ipynb'
+- Código disponível no link [aqui.]('https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4255768276784077/3521110085487217/2924397540173850/latest.html')
 
 O código faz o seguinte:
 
