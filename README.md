@@ -23,7 +23,7 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 
 1. Abra o Databricks Workspace e crie um novo Notebook.
 
-2. Nomeie o notebook como "Processamento de Logs de Servidor Web".
+2. Nomeie o notebook como preferir.
 
 3. No notebook, configure o Cluster criado no passo anterior.
 
