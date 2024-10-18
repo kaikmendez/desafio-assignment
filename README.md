@@ -9,7 +9,7 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 - PySpark para processamento de dados em grandes volumes
 
 - Bibliotecas externas:
-     - py7zr para descompactar arquivos .7z
+     py7zr para descompactar arquivos .7z
 
 ## Passos para Configuração
 
@@ -27,9 +27,8 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 
 ### 3. Instalar a Biblioteca py7zr
 
-Dentro do notebook, instale a biblioteca necessária para descompactação de arquivos executando:
-
-%pip install --upgrade py7zr
+- Dentro do notebook, instale a biblioteca necessária para descompactação de arquivos executando:
+     %pip install --upgrade py7zr
 
 ### 4. Executar o Código
 
