@@ -8,8 +8,8 @@ Este projeto processa logs de um servidor web, utilizando PySpark no Databricks 
 
 -- PySpark para processamento de dados em grandes volumes
 
-### -- Bibliotecas externas:
-       -- py7zr para descompactar arquivos .7z
+### Bibliotecas externas:
+       py7zr para descompactar arquivos .7z
 
 ## Passos para Configuração
 
@@ -30,7 +30,7 @@ Dentro do notebook, instale a biblioteca necessária para descompactação de ar
 ### 4. Executar o Código
 Copie o código abaixo no notebook e execute célula por célula. O código faz o seguinte:
 
-# Código completo conforme fornecido anteriormente
+#### Código completo conforme fornecido anteriormente
 
 -- Faz download e une dois arquivos .7z de logs compactados.
 
@@ -42,8 +42,13 @@ Copie o código abaixo no notebook e execute célula por célula. O código faz 
 Após o processamento, você terá os seguintes resultados:
 
 1. As 10 maiores origens de acesso por quantidade de acessos.
+
 2. Os 6 endpoints mais acessados, excluindo arquivos de mídia.
+
 3. A quantidade de Client IPs distintos.
+
 4. O número de dias representados nos dados.
+
 5. Análises sobre o volume total de dados retornado.
+
 6. O dia da semana com o maior número de erros "HTTP Client Error".
